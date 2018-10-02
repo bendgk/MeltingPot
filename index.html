@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Melting Pot</title>
+</head>
+<body>
+    <div id="app">
+        <input v-model="valueOne" />
+        <input v-model="valueTwo" />
+        <button v-on:click="addTwo">ADD</button>
+        <p>
+            {{sum}}
+        </p>
+        <input v-model="toReverse" v-on:input="revInput" />
+        <p>
+            {{reversed}}
+        </p>
+        <input v-model="displayIndex" />
+        <button v-on:click="pickName">Find Name</button>
+        <p>
+            {{toDisplay}}
+        </p>
+        <input v-model="inputName" />
+        <button v-on:click="appendName">Append Name</button>
+        <ul v-for="item in names">{{item}}</ul>
+        <button v-on:click="setBools()">Check Booleans</button>
+        <br/>
+        0 == '0'  =  {{boolOne}}
+        <br/>
+        0 == [] =  {{boolTwo}}
+        <br/>
+        '0' == [] = {{boolThree}}
+    </div>
+</body>
+</html>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            inputName:"",
+            displayIndex: "",
+            toReverse: "",
+            reversed: "",
+            valueOne: 0,
+            valueTwo: 0,
+            sum: "",
+            names: ["Richard Nixon", "George Washington", "The Bible", "Mao Zedong"],
+            toDisplay: "",
+            boolOne: "",
+            boolTwo: "",
+            boolThree: "",
+        },
+        methods: {
+            addTwo: function () {
+                this.sum = parseInt(this.valueOne) + parseInt(this.valueTwo);
+            },
+            revInput: function () {
+                var tent = this.toReverse.split("");
+                tent = tent.reverse();
+                this.reversed = tent.join("");
+            },
+            pickName: function () {
+                var indexOfName = parseInt(this.displayIndex) - 1;
+                if (indexOfName >= 0 && indexOfName < this.names.length) {
+                    this.toDisplay = this.names[indexOfName];
+                }
+                else {
+                    this.toDisplay = "Invalid boy"
+                }
+            },
+            appendName: function () {
+                if (this.inputName.length > 0) {
+                    this.names.push(this.inputName);
+                    this.inputName = "";
+                }
+            },
+            setBools: function () {
+                this.boolOne = (0 == '0');
+                this.boolTwo = (0 == []);
+                this.boolThree = ('0' == []);
+            }
+
+        }
+    })
+</script>
