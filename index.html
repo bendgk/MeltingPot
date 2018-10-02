@@ -24,7 +24,6 @@
         <input v-model="inputName" />
         <button v-on:click="appendName">Append Name</button>
         <ul v-for="item in names">{{item}}</ul>
-        <button v-on:click="setBools()">Check Booleans</button>
     </div>
 </body>
 </html>
@@ -70,11 +69,6 @@
                     this.inputName = "";
                 }
             },
-            setBools: function () {
-                this.boolOne = (0 == '0');
-                this.boolTwo = (0 == []);
-                this.boolThree = ('0' == []);
-            }
 
         }
     })
