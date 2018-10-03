@@ -8,9 +8,10 @@
 
 <body>
     <div id="cookbook">
-
-        <h1>Unused Ingredients</h1>
-        <img v-for="ingredient in unincludedIngredients" v-bind:src="ingredient + '.jpg'" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
+        <div v-if="unincludedIngredients.length">
+            <h1>Unused Ingredients</h1>
+            <img v-for="ingredient in unincludedIngredients" v-bind:src="ingredient + '.jpg'" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
+        </div>
 
         <div v-if="includedIngredients.length">
             <h1>Included Ingredients</h1>
