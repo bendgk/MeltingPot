@@ -12,26 +12,25 @@
         <div class="row">
             <div v-if="unincludedIngredients.length" class="col-xs-6">
                 <h1>Unused Ingredients</h1>
-                <img v-for="ingredient in unincludedIngredients" v-bind:src="ingredient + '.jpg'" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
+                <img v-for="ingredient in unincludedIngredients" v-bind:src="getImagePath(ingredient)" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
             </div>
         
             <div v-if="includedIngredients.length" class="col-xs-6">
                 <h1>Included Ingredients</h1>
-                <img v-for="ingredient in includedIngredients" v-bind:src="ingredient + '.jpg'" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
+                <img v-for="ingredient in includedIngredients" v-bind:src="getImagePath(ingredient)" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
             </div>
         </div>
         <div class="row">
             <h1>Available Recipes</h1>
             <div v-for="recipe of recipes" v-bind:Id="recipe[0]" v-if="recipe[1]">
                 <h2>{{recipe[0]}}</h2>
-                <img v-for="ingredient in recipe[2]" v-bind:src="ingredient + '.jpg'" width="75px" height="75px"/>
+                <img v-for="ingredient in recipe[2]" v-bind:src="getImagePath(ingredient)" width="75px" height="75px"/>
             </div>
         </div>
     </div>
 </body>
 
 </html>
-
 
 <script src="https://unpkg.com/vue"></script>
 <script>
@@ -83,6 +82,14 @@
                     this.unincludedIngredients.splice(this.unincludedIngredients.indexOf(ingredient), 1);
                 }
                 this.pruneUnselectedIngredients();
+            },
+            /**
+             * Gets image path using name
+             * @param string name representing name of image to find
+             * @return string path full image path
+             */
+            getImagePath: function(name){
+                return "Images/" + name + ".jpg";
             },
         }
     })
