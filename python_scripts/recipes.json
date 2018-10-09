@@ -1,0 +1,658 @@
+{
+    "full english breakfast": {
+        "culture": "english",
+        "ingredients": [
+            [
+                "pork",
+                true
+            ],
+            [
+                "egg",
+                true
+            ],
+            [
+                "coffee or tea",
+                true
+            ],
+            [
+                "bread",
+                false
+            ],
+            [
+                "potatoes",
+                false
+            ],
+            [
+                "beans",
+                false
+            ],
+            [
+                "mushrooms",
+                false
+            ],
+            [
+                "dough",
+                false
+            ],
+            [
+                "beef",
+                false
+            ]
+        ]
+    },
+    "burger": {
+        "culture": "american",
+        "ingredients": [
+            [
+                "bread",
+                true
+            ],
+            [
+                "beef",
+                true
+            ],
+            [
+                "cheese",
+                false
+            ],
+            [
+                "green leaves",
+                false
+            ],
+            [
+                "onions",
+                false
+            ],
+            [
+                "tomato",
+                false
+            ],
+            [
+                "pickle",
+                false
+            ],
+            [
+                "egg",
+                false
+            ],
+            [
+                "pork",
+                false
+            ],
+            [
+                "mayo",
+                false
+            ]
+        ]
+    },
+    "pizza": {
+        "culture": "american/italian",
+        "ingredients": [
+            [
+                "dough",
+                true
+            ],
+            [
+                "tomato",
+                true
+            ],
+            [
+                "cheese",
+                true
+            ],
+            [
+                "beef",
+                false
+            ],
+            [
+                "mushrooms",
+                false
+            ],
+            [
+                "pork",
+                false
+            ],
+            [
+                "pasta",
+                false
+            ]
+        ]
+    },
+    "beef stroganoff": {
+        "culture": "russian",
+        "ingredients": [
+            [
+                "beef",
+                true
+            ],
+            [
+                "noodles",
+                true
+            ],
+            [
+                "mushrooms",
+                true
+            ],
+            [
+                "sour cream",
+                true
+            ],
+            [
+                "garlic",
+                false
+            ]
+        ]
+    },
+    "asian meat bun": {
+        "culture": "chinese",
+        "ingredients": [
+            [
+                "pork or chicken",
+                true
+            ],
+            [
+                "dough",
+                true
+            ],
+            [
+                "onion",
+                false
+            ],
+            [
+                "soy sauce",
+                false
+            ],
+            [
+                "sesame oil",
+                false
+            ],
+            [
+                "ginger",
+                false
+            ]
+        ]
+    },
+    "shepherds pie": {
+        "culture": "british",
+        "ingredients": [
+            [
+                "potatoes",
+                true
+            ],
+            [
+                "beef",
+                true
+            ],
+            [
+                "peas",
+                false
+            ],
+            [
+                "corn",
+                false
+            ],
+            [
+                "butter",
+                true
+            ]
+        ]
+    },
+    "pho": {
+        "culture": "vietnamese",
+        "ingredients": [
+            [
+                "beef",
+                true
+            ],
+            [
+                "noodles",
+                true
+            ],
+            [
+                "carrots",
+                false
+            ],
+            [
+                "potatoes",
+                false
+            ],
+            [
+                "garlic",
+                false
+            ],
+            [
+                "onions",
+                false
+            ],
+            [
+                "peanuts",
+                false
+            ]
+        ]
+    },
+    "fried rice": {
+        "culture": "chinese",
+        "ingredients": [
+            [
+                "eggs",
+                true
+            ],
+            [
+                "rice",
+                true
+            ],
+            [
+                "sesame oil",
+                true
+            ],
+            [
+                "carrot",
+                false
+            ],
+            [
+                "onion",
+                false
+            ],
+            [
+                "garlic",
+                false
+            ]
+        ]
+    },
+    "sushi": {
+        "culture": "japanese",
+        "ingredients": [
+            [
+                "rice",
+                true
+            ],
+            [
+                "seafood",
+                true
+            ],
+            [
+                "soy sauce",
+                false
+            ],
+            [
+                "ginger",
+                false
+            ],
+            [
+                "seaweed",
+                false
+            ]
+        ]
+    },
+    "mac & cheese": {
+        "culture": "american",
+        "ingredients": [
+            [
+                "noodles",
+                true
+            ],
+            [
+                "cheese",
+                true
+            ],
+            [
+                "milk",
+                false
+            ],
+            [
+                "butter",
+                false
+            ]
+        ]
+    },
+    "fish & chips": {
+        "culture": "british",
+        "ingredients": [
+            [
+                "fish",
+                true
+            ],
+            [
+                "potatoes",
+                true
+            ],
+            [
+                "cooking oil",
+                true
+            ],
+            [
+                "dough",
+                true
+            ]
+        ]
+    },
+    "refried beans": {
+        "culture": "mexican",
+        "ingredients": [
+            [
+                "garlic",
+                true
+            ],
+            [
+                "beans",
+                true
+            ],
+            [
+                "cooking oil",
+                true
+            ]
+        ]
+    },
+    "paella": {
+        "culture": "spanish",
+        "ingredients": [
+            [
+                "rice",
+                true
+            ],
+            [
+                "fish",
+                true
+            ]
+        ]
+    },
+    "spanish omelet": {
+        "culture": "spanish",
+        "ingredients": [
+            [
+                "eggs",
+                true
+            ],
+            [
+                "potatoes",
+                true
+            ],
+            [
+                "cooking oil",
+                true
+            ],
+            [
+                "onions",
+                true
+            ],
+            [
+                "cheese",
+                false
+            ]
+        ]
+    },
+    "taco/burrito": {
+        "culture": "mexican",
+        "ingredients": [
+            [
+                "tortilla",
+                true
+            ],
+            [
+                "any meat",
+                true
+            ],
+            [
+                "cheese",
+                true
+            ],
+            [
+                "lettuce",
+                true
+            ],
+            [
+                "beans",
+                false
+            ],
+            [
+                "onions",
+                false
+            ],
+            [
+                "rice",
+                false
+            ]
+        ]
+    },
+    "chori pollo": {
+        "culture": "mexican",
+        "ingredients": [
+            [
+                "pork",
+                true
+            ],
+            [
+                "chicken",
+                true
+            ],
+            [
+                "cheese",
+                true
+            ],
+            [
+                "tortilla",
+                false
+            ],
+            [
+                "beans",
+                false
+            ],
+            [
+                "rice",
+                false
+            ],
+            [
+                "green leaves",
+                false
+            ]
+        ]
+    },
+    "carnitas": {
+        "culture": "mexican",
+        "ingredients": [
+            [
+                "any meat -fish",
+                true
+            ],
+            [
+                "cooking oil",
+                true
+            ]
+        ]
+    },
+    "kimbap": {
+        "culture": "korean",
+        "ingredients": [
+            [
+                "rice",
+                true
+            ],
+            [
+                "eggs",
+                true
+            ],
+            [
+                "carrot",
+                true
+            ],
+            [
+                "sesame oil",
+                true
+            ],
+            [
+                "seaweed",
+                true
+            ],
+            [
+                "any meat excluding chicken",
+                true
+            ],
+            [
+                "soy sauce",
+                true
+            ]
+        ]
+    },
+    "enchiladas": {
+        "culture": "mexican",
+        "ingredients": [
+            [
+                "tortilla",
+                true
+            ],
+            [
+                "pepper",
+                true
+            ],
+            [
+                "any meat -fish",
+                true
+            ]
+        ]
+    },
+    "taquitos": {
+        "culture": "mexican",
+        "ingredients": [
+            [
+                "tortilla",
+                true
+            ],
+            [
+                "any meat",
+                true
+            ],
+            [
+                "cheese",
+                true
+            ],
+            [
+                "lettuce",
+                true
+            ],
+            [
+                "cooking oil",
+                true
+            ]
+        ]
+    },
+    "ramen": {
+        "culture": "japanese",
+        "ingredients": [
+            [
+                "noodles",
+                true
+            ],
+            [
+                "any meat",
+                true
+            ],
+            [
+                "carrots",
+                false
+            ],
+            [
+                "broccoli",
+                false
+            ],
+            [
+                "potatoes",
+                false
+            ],
+            [
+                "garlic",
+                false
+            ],
+            [
+                "onions",
+                false
+            ],
+            [
+                "peas",
+                false
+            ],
+            [
+                "corn",
+                false
+            ],
+            [
+                "mushrooms",
+                false
+            ],
+            [
+                "eggs",
+                false
+            ]
+        ]
+    },
+    "pelmeni": {
+        "culture": "russian",
+        "ingredients": [
+            [
+                "dough",
+                true
+            ],
+            [
+                "beef/pork",
+                true
+            ],
+            [
+                "mayonaise",
+                true
+            ],
+            [
+                "vinegar",
+                false
+            ]
+        ]
+    },
+    "lasagna": {
+        "culture": "italian",
+        "ingredients": [
+            [
+                "noodles",
+                true
+            ],
+            [
+                "cheese",
+                true
+            ],
+            [
+                "tomato",
+                true
+            ],
+            [
+                "beef",
+                true
+            ]
+        ]
+    },
+    "kimchi fried rice": {
+        "culture": "korean",
+        "ingredients": [
+            [
+                "kimchi",
+                true
+            ],
+            [
+                "rice",
+                true
+            ],
+            [
+                "eggs",
+                true
+            ],
+            [
+                "sesame oil",
+                true
+            ],
+            [
+                "pork",
+                false
+            ]
+        ]
+    },
+    "none": {
+        "culture": "none",
+        "ingredients": []
+    }
+}
