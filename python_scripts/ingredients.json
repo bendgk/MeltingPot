@@ -3,184 +3,218 @@
     [
       "rice",
       false,
-      false
+      false,
+      "python_scripts/images/rice.jpg"
     ],
     [
       "bread",
       false,
-      false
+      false,
+      "python_scripts/images/bread.jpg"
     ],
     [
       "noodles",
       false,
-      false
+      false,
+      "python_scripts/images/noodles.jpg"
     ],
     [
       "dough",
       false,
-      false
+      false,
+      "python_scripts/images/dough.jpg"
     ],
     [
       "tortilla",
       false,
-      false
+      false,
+      "python_scripts/images/tortilla.jpg"
     ],
     [
       "soy",
       false,
-      false
+      false,
+      "python_scripts/images/soy.jpg"
     ]
   ],
   "meats": [
     [
       "fish",
       false,
-      false
+      false,
+      "python_scripts/images/fish.jpg"
     ],
     [
       "pork",
       false,
-      false
+      false,
+      "python_scripts/images/pork.jpg"
     ],
     [
       "beef",
       false,
-      false
+      false,
+      "python_scripts/images/beef.jpg"
     ],
     [
       "poultry",
       false,
-      false
+      false,
+      "python_scripts/images/poultry.jpg"
     ],
     [
       "eggs",
       false,
-      false
+      false,
+      "python_scripts/images/eggs.jpg"
     ]
   ],
   "vegetables/fruits": [
     [
       "lettuce/green leaves",
       false,
-      false
+      false,
+      "python_scripts/images/lettuce-green_leaves.jpg"
     ],
     [
       "cucumbers",
       false,
-      false
+      false,
+      "python_scripts/images/cucumbers.jpg"
     ],
     [
       "avocados",
       false,
-      false
+      false,
+      "python_scripts/images/avocados.jpg"
     ],
     [
       "carrots",
       false,
-      false
+      false,
+      "python_scripts/images/carrots.jpg"
     ],
     [
       "broccoli",
       false,
-      false
+      false,
+      "python_scripts/images/broccoli.jpg"
     ],
     [
       "potatoes",
       false,
-      false
+      false,
+      "python_scripts/images/potatoes.jpg"
     ],
     [
       "garlic",
       false,
-      false
+      false,
+      "python_scripts/images/garlic.jpg"
     ],
     [
       "onions",
       false,
-      false
+      false,
+      "python_scripts/images/onions.jpg"
     ],
     [
       "peas",
       false,
-      false
+      false,
+      "python_scripts/images/peas.jpg"
     ],
     [
       "corn",
       false,
-      false
+      false,
+      "python_scripts/images/corn.jpg"
     ],
     [
       "mushrooms",
       false,
-      false
+      false,
+      "python_scripts/images/mushrooms.jpg"
     ],
     [
       "beans",
       false,
-      false
+      false,
+      "python_scripts/images/beans.jpg"
     ]
   ],
   "dairy": [
     [
       "cheese",
       false,
-      false
+      false,
+      "python_scripts/images/cheese.jpg"
     ],
     [
       "milk",
       false,
-      false
+      false,
+      "python_scripts/images/milk.jpg"
     ],
     [
       "butter",
       false,
-      false
+      false,
+      "python_scripts/images/butter.jpg"
     ],
     [
       "yogurt",
       false,
-      false
+      false,
+      "python_scripts/images/yogurt.jpg"
     ],
     [
       "cream",
       false,
-      false
+      false,
+      "python_scripts/images/cream.jpg"
     ]
   ],
   "nuts": [
     [
       "peanuts",
       false,
-      false
+      false,
+      "python_scripts/images/peanuts.jpg"
     ],
     [
       "cocoa",
       false,
-      false
+      false,
+      "python_scripts/images/cocoa.jpg"
     ]
   ],
   "fats": [
     [
       "cooking oil",
       false,
-      false
+      false,
+      "python_scripts/images/cooking_oil.jpg"
     ],
     [
       "sesame oil",
       false,
-      false
+      false,
+      "python_scripts/images/sesame_oil.jpg"
     ]
   ],
   "sauces": [
     [
       "soy sauce",
       false,
-      false
+      false,
+      "python_scripts/images/soy_sauce.jpg"
     ],
     [
       "teriyaki",
       false,
-      false
+      false,
+      "python_scripts/images/teriyaki.jpg"
     ]
   ]
 }
