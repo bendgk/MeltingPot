@@ -20,6 +20,22 @@ var app = new Vue({
     },
     methods: {
         /**
+         * Toggles display settings of div with specified Id
+         * @param {string} id - of specified divider
+         */
+        toggleShow: function(id) {
+            var toToggle = document.getElementById(id);
+            var buttonToggle = id +'BUTTON';
+            if(!(toToggle.style.display == "none")){
+                toToggle.style.display = "none";
+                document.getElementById(buttonToggle).innerHTML = "[+]";
+            } else {
+                toToggle.style.display = "block";
+                document.getElementById(buttonToggle).innerHTML = "[-]";
+            }
+        },
+
+        /**
          * Prunes any recipes that exclude selected ingredients (using global variables so no parameters)
          */
         pruneUnselectedIngredients: function () {
@@ -36,7 +52,7 @@ var app = new Vue({
         },
         /**
          * Toggles ingredient between using/not using and checks what recipes to display
-         * @param string ingredient representing ingredient to toggle
+         * @param {string} ingredient - representing ingredient to toggle
          */
         toggleIngredient: function(ingredient) {
             if(this.includedIngredients.includes(ingredient)){
@@ -51,8 +67,8 @@ var app = new Vue({
         },
         /**
          * Gets image path using name
-         * @param string name representing name of image to find
-         * @return string path full image path
+         * @param {string} name - representing name of image to find
+         * @return {string} full image path
          */
         getImagePath: function(name){
             return "Images/" + name + ".jpg";

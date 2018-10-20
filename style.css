@@ -1,3 +1,12 @@
 .hoverable:hover {
     cursor: pointer;
 }
+
+.ing-img {
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.full-padding {
+    padding: 10px 10px 10px 10px;
+}
