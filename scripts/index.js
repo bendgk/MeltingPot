@@ -8,7 +8,7 @@ var app = new Vue({
         recipes: {},
     },
     computed: {
-        
+
     },
     methods: {
         checkshow: function(index, ingdex){
@@ -35,16 +35,7 @@ var app = new Vue({
          * Prunes any recipes that exclude selected ingredients (using global variables so no parameters)
          */
         pruneUnselectedIngredients: function () {
-            for (var recipe of this.recipes){
-                var display = true;
-                for (var ingredient of this.includedIngredients){
-                    if(!recipe[2].includes(ingredient)){
-                        display = false;
-                        break;
-                    }
-                }
-                recipe[1] = display;
-            }
+
         },
 
         /**
@@ -52,31 +43,19 @@ var app = new Vue({
          * @param {string} ingredient - representing ingredient to toggle
          */
         toggleIngredient: function(ingredient) {
-            if(this.includedIngredients.includes(ingredient)){
-                this.unincludedIngredients.push(ingredient);
-                this.includedIngredients.splice(this.includedIngredients.indexOf(ingredient), 1);
-            }
-            else{
-                this.includedIngredients.push(ingredient);
-                this.unincludedIngredients.splice(this.unincludedIngredients.indexOf(ingredient), 1);
-            }
+
             this.pruneUnselectedIngredients();
         },
         search: function() {
-            for (var key in this.ingredients){
-                for(var ingredient in this.ingredients[key]){
-                    if(ingredient[0].includes(this.searchtext)){
-                        ingredient[2] = false;
-                    }else{
-                        ingredient[2] = true;
-                    }
-                }
+          for(var key in this.ingredients) {
+            for(var ikey in this.ingredients[key]){
+              if(this.ingredients[key][ikey][0].includes(this.searchtext)){
+                this.ingredients[key][ikey][2] = false;
+              }else{
+                this.ingredients[key][ikey][2] = true;
+              }
             }
-            for (var key in this.ingredients){
-                for(var ingredient in this.ingredients[key]){
-                    console.log(ingredient[2]);
-                }
-            }
+          }
         }
     },
     created() {
