@@ -3,17 +3,18 @@ var app = new Vue({
     data: {
         // included ingredients, starts off as list of total ingredients
         ingredients: {},
-        
-        unincludedIngredients:["Lettuce",
-        "Fish",
-        "Noodles"
-        ],
-        // array of currently included ingredients by name
-        includedIngredients:[],
-        // array of recipes, [0] is recipe name/identifier, [1] is boolean representing whether or not it is currently being displayed, [2] is array of ingredients by name
+        searchtext: "",
+        includedIngredients:{},
         recipes: {},
     },
+    computed: {
+        
+    },
     methods: {
+        checkshow: function(index, ingdex){
+            console.log(!this.ingredients[index][ingdex][1]);
+            return (!this.ingredients[index][ingdex][1] && !this.ingredients[index][ingdex][2]);
+        },
         /**
          * Toggles display settings of div with specified Id
          * @param {string} id - of specified divider
@@ -61,15 +62,22 @@ var app = new Vue({
             }
             this.pruneUnselectedIngredients();
         },
-
-        /**
-         * Gets image path using name
-         * @param {string} name - representing name of image to find
-         * @return {string} full image path
-         */
-        getImagePath: function(name){
-            return "Images/" + name + ".jpg";
-        },
+        search: function() {
+            for (var key in this.ingredients){
+                for(var ingredient in this.ingredients[key]){
+                    if(ingredient[0].includes(this.searchtext)){
+                        ingredient[2] = false;
+                    }else{
+                        ingredient[2] = true;
+                    }
+                }
+            }
+            for (var key in this.ingredients){
+                for(var ingredient in this.ingredients[key]){
+                    console.log(ingredient[2]);
+                }
+            }
+        }
     },
     created() {
         $.getJSON('python_scripts/ingredients.json').then((data) => {
