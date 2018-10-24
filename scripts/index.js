@@ -11,12 +11,7 @@ var app = new Vue({
         // array of currently included ingredients by name
         includedIngredients:[],
         // array of recipes, [0] is recipe name/identifier, [1] is boolean representing whether or not it is currently being displayed, [2] is array of ingredients by name
-        recipes:[
-            ["Fish Noodles", true, ["Fish", "Noodles"]],
-            ["Lettuce Fish", true, ["Lettuce", "Fish"]],
-            ["Lettuce Noodles", true, ["Lettuce", "Noodles"]],
-            ["Lettuce Fish Noodles", true, ["Lettuce", "Fish", "Noodles"]],
-        ],
+        recipes: {},
     },
     methods: {
         /**
@@ -50,6 +45,7 @@ var app = new Vue({
                 recipe[1] = display;
             }
         },
+
         /**
          * Toggles ingredient between using/not using and checks what recipes to display
          * @param {string} ingredient - representing ingredient to toggle
@@ -65,6 +61,7 @@ var app = new Vue({
             }
             this.pruneUnselectedIngredients();
         },
+
         /**
          * Gets image path using name
          * @param {string} name - representing name of image to find
@@ -77,6 +74,9 @@ var app = new Vue({
     created() {
         $.getJSON('python_scripts/ingredients.json').then((data) => {
             this.ingredients = data;
+        });
+        $.getJSON('python_scripts/recipes.json').then((data) => {
+            this.recipes = data;
         });
     }
 });

@@ -95,6 +95,12 @@
       "python_scripts/images/carrots.jpg"
     ],
     [
+      "tomato",
+      false,
+      false,
+      "python_scripts/images/tomato.jpg"
+    ],
+    [
       "broccoli",
       false,
       false,
@@ -215,6 +221,12 @@
       false,
       false,
       "python_scripts/images/teriyaki.jpg"
+    ],
+    [
+      "mayo",
+      false,
+      false,
+      "python_scripts/images/mayo.jpg"
     ]
   ]
 }
