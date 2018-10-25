@@ -147,7 +147,19 @@
       false,
       false,
       "python_scripts/images/beans.jpg"
-    ]
+  ],
+  [
+      "kimchi",
+      false,
+      false,
+      "python_scripts/images/kimchi.jpg"
+  ],
+  [
+      "peppers",
+      false,
+      false,
+      "python_scripts/images/peppers.jpg"
+  ]
   ],
   "dairy": [
     [

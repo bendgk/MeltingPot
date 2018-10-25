@@ -5,8 +5,16 @@
 .ing-img {
     margin-right: 5%;
     margin-bottom: 5%;
+    border: 3px solid #ddd;
+    border-radius: 4px;
 }
 
 .full-padding {
     padding: 10px 10px 10px 10px;
+}
+
+.customBorder {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    border-color: #FF4136;
 }

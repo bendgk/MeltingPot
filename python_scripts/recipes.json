@@ -561,6 +561,11 @@
                 "soy sauce",
                 true,
                 "python_scripts/images/soy_sauce.jpg"
+            ],
+            [
+                "kimchi",
+                false,
+                "python_scripts/images/kimchi.jpg"
             ]
         ]
     },
@@ -573,8 +578,9 @@
                 "python_scripts/images/tortilla.jpg"
             ],
             [
-                "pepper",
-                true
+                "peppers",
+                true,
+                "python_scripts/images/peppers.jpg"
             ],
             [
                 "poultry,pork,beef",
@@ -723,7 +729,8 @@
         "ingredients": [
             [
                 "kimchi",
-                true
+                true,
+                "python_scripts/images/kimchi.jpg"
             ],
             [
                 "rice",

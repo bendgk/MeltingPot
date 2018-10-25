@@ -50,12 +50,12 @@
                 </div>
                 <div v-for="(recipe, index) in recipes">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" v-bind:id="index">
                             {{index}}
                         </div>
                     </div>
                     <div class="row">
-                        <img class="ing-img" width="15%" v-for="ingredient in recipe['ingredients']" v-bind:src="ingredient[2]" />
+                        <img class="ing-img" width="15%" v-for="ingredient in recipe['ingredients']" v-bind:src="ingredient[2]" v-bind:class="setBorder(index, ingredient[0])"/>
                     </div>
                 </div>
             </div>
