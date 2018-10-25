@@ -4,7 +4,6 @@ var app = new Vue({
         // included ingredients, starts off as list of total ingredients
         ingredients: {},
         searchtext: "",
-        includedIngredients: {},
         includedIngredients:[],
         recipes: {},
     },
