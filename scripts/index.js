@@ -33,12 +33,6 @@ var app = new Vue({
          * Prunes any recipes that exclude selected ingredients (using global variables so no parameters)
          */
         pruneUnselectedIngredients: function () {
-          for(var fullIngredient of this.includedIngredients) {
-            var display = false;
-            for(var key of this.recipes){
-              for(var )
-            }
-          }
         },
 
         /**
