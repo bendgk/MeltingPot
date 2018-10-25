@@ -4,11 +4,12 @@ var app = new Vue({
         // included ingredients, starts off as list of total ingredients
         ingredients: {},
         searchtext: "",
+<<<<<<<<<<<<<< HEAD
         includedIngredients: {},
+<<<<<<< HEAD
+        includedIngredients:[],
+>>>>>>> 4661dd92094685399700ef9b0be8a55e8ca5cf61
         recipes: {},
-    },
-    computed: {
-
     },
     methods: {
         checkshow: function(index, ingdex) {
@@ -34,16 +35,46 @@ var app = new Vue({
         /**
          * Prunes any recipes that exclude selected ingredients (using global variables so no parameters)
          */
-        pruneUnselectedIngredients: function() {
-
+        pruneUnselectedIngredients: function () {
+          for(var fullIngredient of this.includedIngredients) {
+            var display = false;
+            for(var key of this.recipes){
+              for(var )
+            }
+          }
         },
 
         /**
          * Toggles ingredient between using/not using and checks what recipes to display
-         * @param {string} ingredient - representing ingredient to toggle
+         * @param {array} ingredient - representing ingredient to toggle
          */
         toggleIngredient: function(ingredient) {
-
+            if(ingredient[1]){
+              toRemove = -1;
+              for(var i = 0; i < this.includedIngredients.length; i++){
+                if(ingredient[0] == this.includedIngredients[i][0]){
+                  toRemove = i;
+                  break;
+                }
+              }
+              this.includedIngredients.splice(toRemove, 1);
+              for(var key in this.ingredients) {
+                for(var ikey in this.ingredients[key]){
+                  if(ingredient[0] == this.ingredients[key][ikey][0]){
+                    this.ingredients[key][ikey][1] = false;
+                  }
+                }
+              }
+            }else{
+              this.includedIngredients.push(ingredient);
+              for(var key in this.ingredients) {
+                for(var ikey in this.ingredients[key]){
+                  if(ingredient[0] == this.ingredients[key][ikey][0]){
+                    this.ingredients[key][ikey][1] = true;
+                  }
+                }
+              }
+            }
             this.pruneUnselectedIngredients();
         },
         search: function() {
