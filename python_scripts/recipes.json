@@ -1,5 +1,6 @@
 {
     "full english breakfast": {
+        "display": true,
         "culture": "english",
         "ingredients": [
             [
@@ -45,6 +46,7 @@
         ]
     },
     "burger": {
+        "display": true,
         "culture": "american",
         "ingredients": [
             [
@@ -95,6 +97,7 @@
         ]
     },
     "pizza": {
+        "display": true,
         "culture": "american/italian",
         "ingredients": [
             [
@@ -130,6 +133,7 @@
         ]
     },
     "beef stroganoff": {
+        "display": true,
         "culture": "russian",
         "ingredients": [
             [
@@ -155,6 +159,7 @@
         ]
     },
     "asian meat bun": {
+        "display": true,
         "culture": "chinese",
         "ingredients": [
             [
@@ -185,6 +190,7 @@
         ]
     },
     "shepherds pie": {
+        "display": true,
         "culture": "british",
         "ingredients": [
             [
@@ -215,6 +221,7 @@
         ]
     },
     "pho": {
+        "display": true,
         "culture": "vietnamese",
         "ingredients": [
             [
@@ -255,6 +262,7 @@
         ]
     },
     "fried rice": {
+        "display": true,
         "culture": "chinese",
         "ingredients": [
             [
@@ -290,6 +298,7 @@
         ]
     },
     "sushi": {
+        "display": true,
         "culture": "japanese",
         "ingredients": [
             [
@@ -315,6 +324,7 @@
         ]
     },
     "mac & cheese": {
+        "display": true,
         "culture": "american",
         "ingredients": [
             [
@@ -340,6 +350,7 @@
         ]
     },
     "fish & chips": {
+        "display": true,
         "culture": "british",
         "ingredients": [
             [
@@ -365,6 +376,7 @@
         ]
     },
     "refried beans": {
+        "display": true,
         "culture": "mexican",
         "ingredients": [
             [
@@ -385,6 +397,7 @@
         ]
     },
     "paella": {
+        "display": true,
         "culture": "spanish",
         "ingredients": [
             [
@@ -400,6 +413,7 @@
         ]
     },
     "spanish omelet": {
+        "display": true,
         "culture": "spanish",
         "ingredients": [
             [
@@ -430,6 +444,7 @@
         ]
     },
     "taco/burrito": {
+        "display": true,
         "culture": "mexican",
         "ingredients": [
             [
@@ -470,6 +485,7 @@
         ]
     },
     "chori pollo": {
+        "display": true,
         "culture": "mexican",
         "ingredients": [
             [
@@ -510,6 +526,7 @@
         ]
     },
     "carnitas": {
+        "display": true,
         "culture": "mexican",
         "ingredients": [
             [
@@ -525,6 +542,7 @@
         ]
     },
     "kimbap": {
+        "display": true,
         "culture": "korean",
         "ingredients": [
             [
@@ -565,6 +583,7 @@
         ]
     },
     "enchiladas": {
+        "display": true,
         "culture": "mexican",
         "ingredients": [
             [
@@ -584,6 +603,7 @@
         ]
     },
     "taquitos": {
+        "display": true,
         "culture": "mexican",
         "ingredients": [
             [
@@ -614,6 +634,7 @@
         ]
     },
     "ramen": {
+        "display": true,
         "culture": "japanese",
         "ingredients": [
             [
@@ -674,6 +695,7 @@
         ]
     },
     "pelmeni": {
+        "display": true,
         "culture": "russian",
         "ingredients": [
             [
@@ -694,6 +716,7 @@
         ]
     },
     "lasagna": {
+        "display": true,
         "culture": "italian",
         "ingredients": [
             [
@@ -719,6 +742,7 @@
         ]
     },
     "kimchi fried rice": {
+        "display": true,
         "culture": "korean",
         "ingredients": [
             [
