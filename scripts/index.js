@@ -4,11 +4,8 @@ var app = new Vue({
         // included ingredients, starts off as list of total ingredients
         ingredients: {},
         searchtext: "",
-<<<<<<<<<<<<<< HEAD
         includedIngredients: {},
-<<<<<<< HEAD
         includedIngredients:[],
->>>>>>> 4661dd92094685399700ef9b0be8a55e8ca5cf61
         recipes: {},
     },
     methods: {
@@ -107,7 +104,6 @@ var app = new Vue({
         });
         $.getJSON('python_scripts/recipes.json').then((data) => {
             this.recipes = data;
-            console.log(this.recipes);
         });
     }
 });

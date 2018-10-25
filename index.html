@@ -51,7 +51,7 @@
                 <div v-for="(recipe, index) in recipes">
                     <div class="row">
                         <div class="col-lg-12" v-bind:id="index">
-                            {{index}}
+                            {{index}}: {{recipe["culture"]}}
                         </div>
                     </div>
                     <div class="row">
