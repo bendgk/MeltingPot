@@ -93,7 +93,7 @@ var app = new Vue({
     search: function() {
       for (var key in this.ingredients) {
         for (var ikey in this.ingredients[key]) {
-          if (this.ingredients[key][ikey][0].includes(this.searchtext)) {
+          if (this.ingredients[key][ikey][0].toLowerCase().includes(this.searchtext.toLowerCase())) {
             this.ingredients[key][ikey][2] = false;
           } else {
             this.ingredients[key][ikey][2] = true;
