@@ -90,6 +90,19 @@ var app = new Vue({
       }
       this.pruneUnselectedIngredients();
     },
+
+    /**
+     * Clear recipe
+     */
+    clearRecipe: function() {
+        let inc_ing = this.includedIngredients.slice(0);
+        for (let i = 0; i < inc_ing.length; i++) {
+            console.log(i);
+            console.log(inc_ing.length)
+            this.toggleIngredient(inc_ing[i]);
+        }
+    },
+
     search: function() {
       for (var key in this.ingredients) {
         for (var ikey in this.ingredients[key]) {
