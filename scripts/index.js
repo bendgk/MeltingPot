@@ -90,10 +90,23 @@ var app = new Vue({
       }
       this.pruneUnselectedIngredients();
     },
+
+    /**
+     * Clear recipe
+     */
+    clearRecipe: function() {
+        let inc_ing = this.includedIngredients.slice(0);
+        for (let i = 0; i < inc_ing.length; i++) {
+            console.log(i);
+            console.log(inc_ing.length)
+            this.toggleIngredient(inc_ing[i]);
+        }
+    },
+
     search: function() {
       for (var key in this.ingredients) {
         for (var ikey in this.ingredients[key]) {
-          if (this.ingredients[key][ikey][0].includes(this.searchtext)) {
+          if (this.ingredients[key][ikey][0].toLowerCase().includes(this.searchtext.toLowerCase())) {
             this.ingredients[key][ikey][2] = false;
           } else {
             this.ingredients[key][ikey][2] = true;
