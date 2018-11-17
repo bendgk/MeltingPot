@@ -2,13 +2,13 @@ import json
 
 ingredients = []
 
-with open('ingredients.json', 'r') as file:
+with open('../ingredients.json', 'r') as file:
     ijson_data = json.load(file)
     for item in ijson_data:
         for ingredient in ijson_data[item]:
             ingredients.append(ingredient[0])
 
-with open('recipes.json', 'r') as file:
+with open('../recipes.json', 'r') as file:
     json_data = json.load(file)
     for item in json_data:
         for ingredient in json_data[item]["ingredients"]:
@@ -17,6 +17,6 @@ with open('recipes.json', 'r') as file:
                     json_data[item]["ingredients"].remove(ingredient)
 
 
-with open('recipes.json', 'w') as file:
+with open('../recipes.json', 'w') as file:
     json.dump(json_data, file, indent=4)
 

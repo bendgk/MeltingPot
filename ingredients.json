@@ -1,0 +1,140 @@
+{
+    "Grains": [
+        [
+            "Rice",
+            false,
+            false,
+            "images/Rice"
+        ],
+        [
+            "Bread",
+            false,
+            false,
+            "images/Bread"
+        ],
+        [
+            "Noodles",
+            false,
+            false,
+            "images/Noodles"
+        ],
+        [
+            "Tortilla",
+            false,
+            false,
+            "images/Tortilla"
+        ],
+        [
+            "Dough",
+            false,
+            false,
+            "images/Dough"
+        ]
+    ],
+    "Meats": [
+        [
+            "Fish",
+            false,
+            false,
+            "images/Fish"
+        ],
+        [
+            "Pork",
+            false,
+            false,
+            "images/Pork"
+        ],
+        [
+            "Beef",
+            false,
+            false,
+            "images/Beef"
+        ],
+        [
+            "Poultry",
+            false,
+            false,
+            "images/Poultry"
+        ],
+        [
+            "Egg",
+            false,
+            false,
+            "images/Egg"
+        ]
+    ],
+    "Vegetables/Fruits": [
+        [
+            "Green Leaves",
+            false,
+            false,
+            "images/Green Leaves"
+        ],
+        [
+            "Potatoes",
+            false,
+            false,
+            "images/Potatoes"
+        ],
+        [
+            "Garlic",
+            false,
+            false,
+            "images/Garlic"
+        ],
+        [
+            "Mushrooms",
+            false,
+            false,
+            "images/Mushrooms"
+        ],
+        [
+            "Beans",
+            false,
+            false,
+            "images/Beans"
+        ],
+        [
+            "Pepper",
+            false,
+            false,
+            "images/Pepper"
+        ]
+    ],
+    "Dairy": [
+        [
+            "Cheese",
+            false,
+            false,
+            "images/Cheese"
+        ]
+    ],
+    "Fats": [
+        [
+            "Cooking Oil",
+            false,
+            false,
+            "images/Cooking Oil"
+        ],
+        [
+            "Sesame Oil",
+            false,
+            false,
+            "images/Sesame Oil"
+        ]
+    ],
+    "Sauces": [
+        [
+            "Soy Sauce",
+            false,
+            false,
+            "images/Soy Sauce"
+        ],
+        [
+            "Marinara Sauce",
+            false,
+            false,
+            "images/Marinara Sauce"
+        ]
+    ]
+}
