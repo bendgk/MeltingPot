@@ -29,12 +29,6 @@
       false,
       false,
       "python_scripts/images/tortilla.jpg"
-    ],
-    [
-      "soy",
-      false,
-      false,
-      "python_scripts/images/soy.jpg"
     ]
   ],
   "meats": [
@@ -77,36 +71,6 @@
       "python_scripts/images/lettuce-green_leaves.jpg"
     ],
     [
-      "cucumbers",
-      false,
-      false,
-      "python_scripts/images/cucumbers.jpg"
-    ],
-    [
-      "avocados",
-      false,
-      false,
-      "python_scripts/images/avocados.jpg"
-    ],
-    [
-      "carrots",
-      false,
-      false,
-      "python_scripts/images/carrots.jpg"
-    ],
-    [
-      "tomato",
-      false,
-      false,
-      "python_scripts/images/tomato.jpg"
-    ],
-    [
-      "broccoli",
-      false,
-      false,
-      "python_scripts/images/broccoli.jpg"
-    ],
-    [
       "potatoes",
       false,
       false,
@@ -125,18 +89,6 @@
       "python_scripts/images/onions.jpg"
     ],
     [
-      "peas",
-      false,
-      false,
-      "python_scripts/images/peas.jpg"
-    ],
-    [
-      "corn",
-      false,
-      false,
-      "python_scripts/images/corn.jpg"
-    ],
-    [
       "mushrooms",
       false,
       false,
@@ -147,19 +99,13 @@
       false,
       false,
       "python_scripts/images/beans.jpg"
-  ],
-  [
-      "kimchi",
-      false,
-      false,
-      "python_scripts/images/kimchi.jpg"
-  ],
-  [
+    ],
+    [
       "peppers",
       false,
       false,
       "python_scripts/images/peppers.jpg"
-  ]
+    ]
   ],
   "dairy": [
     [
@@ -167,44 +113,6 @@
       false,
       false,
       "python_scripts/images/cheese.jpg"
-    ],
-    [
-      "milk",
-      false,
-      false,
-      "python_scripts/images/milk.jpg"
-    ],
-    [
-      "butter",
-      false,
-      false,
-      "python_scripts/images/butter.jpg"
-    ],
-    [
-      "yogurt",
-      false,
-      false,
-      "python_scripts/images/yogurt.jpg"
-    ],
-    [
-      "cream",
-      false,
-      false,
-      "python_scripts/images/cream.jpg"
-    ]
-  ],
-  "nuts": [
-    [
-      "peanuts",
-      false,
-      false,
-      "python_scripts/images/peanuts.jpg"
-    ],
-    [
-      "cocoa",
-      false,
-      false,
-      "python_scripts/images/cocoa.jpg"
     ]
   ],
   "fats": [
@@ -229,16 +137,10 @@
       "python_scripts/images/soy_sauce.jpg"
     ],
     [
-      "teriyaki",
+      "marinara sauce",
       false,
       false,
-      "python_scripts/images/teriyaki.jpg"
-    ],
-    [
-      "mayo",
-      false,
-      false,
-      "python_scripts/images/mayo.jpg"
+      "python_scripts/images/marinara_sauce.jpg"
     ]
   ]
 }
