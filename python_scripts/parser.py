@@ -27,7 +27,7 @@ ingredients = {}
 recipes = {}
 
 #parse ingredients
-NUM_COLS = len(ingredients_worksheet.get_all_values())	
+NUM_COLS = len(ingredients_worksheet.get_all_values())
 
 for i in range(1, NUM_COLS):
 	data = ingredients_worksheet.col_values(i)
@@ -63,7 +63,7 @@ for i in range(2, NUM_COLS + 1):
 			}
 
 		else:
-			recipes[data[1]]['ingredients'].append([ingredient, required])
+			recipes[data[1]]['ingredients'].append([ingredient, required, "images/"+ingredient+".jpg"])
 
 #dump contents
 with open('../ingredients.json', 'w+') as f:

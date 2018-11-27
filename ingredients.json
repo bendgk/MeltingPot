@@ -4,31 +4,31 @@
             "Rice",
             false,
             false,
-            "images/Rice"
+            "images/rice.jpg"
         ],
         [
             "Bread",
             false,
             false,
-            "images/Bread"
+            "images/bread.jpg"
         ],
         [
             "Noodles",
             false,
             false,
-            "images/Noodles"
+            "images/noodles.jpg"
         ],
         [
             "Tortilla",
             false,
             false,
-            "images/Tortilla"
+            "images/tortilla.jpg"
         ],
         [
             "Dough",
             false,
             false,
-            "images/Dough"
+            "images/dough.jpg"
         ]
     ],
     "Meats": [
@@ -36,31 +36,31 @@
             "Fish",
             false,
             false,
-            "images/Fish"
+            "images/fish.jpg"
         ],
         [
             "Pork",
             false,
             false,
-            "images/Pork"
+            "images/pork.jpg"
         ],
         [
             "Beef",
             false,
             false,
-            "images/Beef"
+            "images/beef.jpg"
         ],
         [
             "Poultry",
             false,
             false,
-            "images/Poultry"
+            "images/poultry.jpg"
         ],
         [
             "Egg",
             false,
             false,
-            "images/Egg"
+            "images/egg.jpg"
         ]
     ],
     "Vegetables/Fruits": [
@@ -68,37 +68,37 @@
             "Green Leaves",
             false,
             false,
-            "images/Green Leaves"
+            "images/green_leaves.jpg"
         ],
         [
             "Potatoes",
             false,
             false,
-            "images/Potatoes"
+            "images/potatoes.jpg"
         ],
         [
             "Garlic",
             false,
             false,
-            "images/Garlic"
+            "images/garlic.jpg"
         ],
         [
             "Mushrooms",
             false,
             false,
-            "images/Mushrooms"
+            "images/mushrooms.jpg"
         ],
         [
             "Beans",
             false,
             false,
-            "images/Beans"
+            "images/beans.jpg"
         ],
         [
             "Pepper",
             false,
             false,
-            "images/Pepper"
+            "images/pepper.jpg"
         ]
     ],
     "Dairy": [
@@ -106,7 +106,7 @@
             "Cheese",
             false,
             false,
-            "images/Cheese"
+            "images/cheese.jpg"
         ]
     ],
     "Fats": [
@@ -114,13 +114,13 @@
             "Cooking Oil",
             false,
             false,
-            "images/Cooking Oil"
+            "images/Cooking_Oil.jpg"
         ],
         [
             "Sesame Oil",
             false,
             false,
-            "images/Sesame Oil"
+            "images/sesame_oil.jpg"
         ]
     ],
     "Sauces": [
@@ -128,13 +128,13 @@
             "Soy Sauce",
             false,
             false,
-            "images/Soy Sauce"
+            "images/soy_sauce.jpg"
         ],
         [
             "Marinara Sauce",
             false,
             false,
-            "images/Marinara Sauce"
+            "images/marinara_sauce.jpg"
         ]
     ]
 }
