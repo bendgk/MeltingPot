@@ -2,6 +2,8 @@ from oauth2client import file, client, tools
 import gspread
 import json, re
 
+import numpy as np
+
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
@@ -26,44 +28,54 @@ recipes_worksheet = recipes.sheet1
 ingredients = {}
 recipes = {}
 
-#parse ingredients
-NUM_COLS = len(ingredients_worksheet.get_all_values())
+ingredient_values = np.array(ingredients_worksheet.get_all_values())
+recipe_values = np.array(recipes_worksheet.get_all_values())
 
-for i in range(1, NUM_COLS):
-	data = ingredients_worksheet.col_values(i)
+#parse ingredients
+NUM_COLS = len(ingredient_values) - 1
+
+for i in range(NUM_COLS):
+	data = list(filter(None, ingredient_values[:,i]))
 	for i in range(len(data)):
 		if i == 0:	#initialize category in ingredients dict
 			ingredients[data[i]] = []
 
 		else:
-			ingredients[data[0]].append([data[i], False, False, "images/" + data[i]])
+			ingredient_path = "images/" + data[i].replace(" ", "_").lower() + ".jpg"
+			ingredients[data[0]].append([data[i].lower(), False, False, ingredient_path])
 
 #parse recipes
-NUM_COLS = recipes_worksheet.col_count
+NUM_COLS = len(recipe_values[0])
 
-for i in range(2, NUM_COLS + 1):
-	data = recipes_worksheet.col_values(i)
+for i in range(1, NUM_COLS):
+	data_array = list(filter(None, recipe_values[:,i]))
 	culture = ""
+	recipe = ""
 
-	for i in range(len(data)):
-		ingredient = data[i].strip().lower()
-		if ingredient[-3:] == "(o)":
-			ingredient = ingredient[0:-3].strip()
-			required = True
+	#print(data_array)
 
-		required = False
+	for j in range(len(data_array)):
+		sanitized_value = data_array[j].strip().lower()
 
-		if i == 0:	#initialize culture
-			culture = data[i]
+		required = True
 
-		elif i == 1: #initialize recipe in dict
-			recipes[data[i]] = {
+		if sanitized_value[-3:] == "(o)":
+			sanitized_value = sanitized_value[0:-3].strip()
+			required = False
+
+		if j == 0:	#initialize culture
+			culture = data_array[j]
+
+		elif j == 1: #initialize recipe in dict
+			recipe = data_array[j]
+			recipes[recipe] = {
 				'culture': culture,
 				'ingredients': []
 			}
 
 		else:
-			recipes[data[1]]['ingredients'].append([ingredient, required, "images/"+ingredient+".jpg"])
+			ingredient_path = "images/" + sanitized_value.replace(" ", "_") + ".jpg"
+			recipes[recipe]['ingredients'].append([sanitized_value, required, ingredient_path])
 
 #dump contents
 with open('../ingredients.json', 'w+') as f:

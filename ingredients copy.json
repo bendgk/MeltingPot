@@ -1,5 +1,5 @@
 {
-    "Grains": [
+    "grains": [
         [
             "rice",
             false,
@@ -31,7 +31,7 @@
             "images/dough.jpg"
         ]
     ],
-    "Meats": [
+    "meats": [
         [
             "fish",
             false,
@@ -57,13 +57,13 @@
             "images/poultry.jpg"
         ],
         [
-            "eggs",
+            "egg",
             false,
             false,
-            "images/eggs.jpg"
+            "images/egg.jpg"
         ]
     ],
-    "Vegetables/Fruits": [
+    "vegetables/fruits": [
         [
             "green leaves",
             false,
@@ -95,13 +95,13 @@
             "images/beans.jpg"
         ],
         [
-            "peppers",
+            "pepper",
             false,
             false,
-            "images/peppers.jpg"
+            "images/pepper.jpg"
         ]
     ],
-    "Dairy": [
+    "dairy": [
         [
             "cheese",
             false,
@@ -109,7 +109,7 @@
             "images/cheese.jpg"
         ]
     ],
-    "Fats": [
+    "fats": [
         [
             "cooking oil",
             false,
@@ -123,7 +123,7 @@
             "images/sesame_oil.jpg"
         ]
     ],
-    "Sauces": [
+    "sauces": [
         [
             "soy sauce",
             false,

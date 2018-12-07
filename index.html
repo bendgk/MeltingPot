@@ -72,7 +72,6 @@
                 <h2>Unused Ingredients</h2>
                 <img class="hoverable" v-for="ingredient in unincludedIngredients" v-bind:src="getImagePath(ingredient)" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
             </div>
-
             <div class="col-md-6 text-center">
                 <h2>Included Ingredients</h2>
                 <img v-for="ingredient in includedIngredients" v-bind:src="getImagePath(ingredient)" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
