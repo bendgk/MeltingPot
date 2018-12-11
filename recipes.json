@@ -5,17 +5,17 @@
             [
                 "beans",
                 true,
-                "images/beans.jpg"
+                "/static/images/beans.jpg"
             ],
             [
                 "tortilla",
                 false,
-                "images/tortilla.jpg"
+                "/static/images/tortilla.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ]
         ]
     },
@@ -25,37 +25,37 @@
             [
                 "bread",
                 true,
-                "images/bread.jpg"
+                "/static/images/bread.jpg"
             ],
             [
                 "beef",
                 true,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ],
             [
                 "cheese",
                 false,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "mushrooms",
                 false,
-                "images/mushrooms.jpg"
+                "/static/images/mushrooms.jpg"
             ],
             [
                 "eggs",
                 false,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "pork",
                 false,
-                "images/pork.jpg"
+                "/static/images/pork.jpg"
             ]
         ]
     },
@@ -65,32 +65,32 @@
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "beef",
                 false,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ],
             [
                 "mushrooms",
                 false,
-                "images/mushrooms.jpg"
+                "/static/images/mushrooms.jpg"
             ],
             [
                 "pork",
                 false,
-                "images/pork.jpg"
+                "/static/images/pork.jpg"
             ],
             [
                 "noodles",
                 false,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ]
         ]
     },
@@ -100,22 +100,22 @@
             [
                 "beef",
                 true,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ],
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "mushrooms",
                 true,
-                "images/mushrooms.jpg"
+                "/static/images/mushrooms.jpg"
             ],
             [
                 "garlic",
                 false,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ]
         ]
     },
@@ -125,22 +125,22 @@
             [
                 "pork, poultry",
                 true,
-                "images/pork,_poultry.jpg"
+                "/static/images/pork,_poultry.jpg"
             ],
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "sesame oil",
                 false,
-                "images/sesame_oil.jpg"
+                "/static/images/sesame_oil.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -150,17 +150,17 @@
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "beef",
                 true,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -170,22 +170,22 @@
             [
                 "beef",
                 true,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ],
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "potatoes",
                 false,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "garlic",
                 false,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ]
         ]
     },
@@ -195,27 +195,27 @@
             [
                 "eggs",
                 true,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "sesame oil",
                 true,
-                "images/sesame_oil.jpg"
+                "/static/images/sesame_oil.jpg"
             ],
             [
                 "garlic",
                 false,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -225,22 +225,22 @@
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -250,12 +250,12 @@
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ]
         ]
     },
@@ -265,22 +265,22 @@
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ]
         ]
     },
@@ -290,17 +290,17 @@
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "beans",
                 true,
-                "images/beans.jpg"
+                "/static/images/beans.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -310,12 +310,12 @@
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ]
         ]
     },
@@ -325,22 +325,22 @@
             [
                 "eggs",
                 true,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "cheese",
                 false,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ]
         ]
     },
@@ -350,27 +350,27 @@
             [
                 "tortilla",
                 true,
-                "images/tortilla.jpg"
+                "/static/images/tortilla.jpg"
             ],
             [
                 "pork, beef, poultry, fish",
                 true,
-                "images/pork,_beef,_poultry,_fish.jpg"
+                "/static/images/pork,_beef,_poultry,_fish.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "beans",
                 false,
-                "images/beans.jpg"
+                "/static/images/beans.jpg"
             ],
             [
                 "rice",
                 false,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ]
         ]
     },
@@ -380,37 +380,37 @@
             [
                 "pork",
                 true,
-                "images/pork.jpg"
+                "/static/images/pork.jpg"
             ],
             [
                 "poultry",
                 true,
-                "images/poultry.jpg"
+                "/static/images/poultry.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "tortilla",
                 false,
-                "images/tortilla.jpg"
+                "/static/images/tortilla.jpg"
             ],
             [
                 "beans",
                 false,
-                "images/beans.jpg"
+                "/static/images/beans.jpg"
             ],
             [
                 "rice",
                 false,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ]
         ]
     },
@@ -420,17 +420,17 @@
             [
                 "pork, beef, poultry",
                 true,
-                "images/pork,_beef,_poultry.jpg"
+                "/static/images/pork,_beef,_poultry.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "peppers",
                 false,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ]
         ]
     },
@@ -440,32 +440,32 @@
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "eggs",
                 true,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ],
             [
                 "sesame oil",
                 false,
-                "images/sesame_oil.jpg"
+                "/static/images/sesame_oil.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "pork, beef, fish",
                 false,
-                "images/pork,_beef,_fish.jpg"
+                "/static/images/pork,_beef,_fish.jpg"
             ]
         ]
     },
@@ -475,17 +475,17 @@
             [
                 "tortilla",
                 true,
-                "images/tortilla.jpg"
+                "/static/images/tortilla.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "pork, beef, poultry",
                 true,
-                "images/pork,_beef,_poultry.jpg"
+                "/static/images/pork,_beef,_poultry.jpg"
             ]
         ]
     },
@@ -495,27 +495,27 @@
             [
                 "tortilla",
                 true,
-                "images/tortilla.jpg"
+                "/static/images/tortilla.jpg"
             ],
             [
                 "pork, beef, poultry, fish",
                 true,
-                "images/pork,_beef,_poultry,_fish.jpg"
+                "/static/images/pork,_beef,_poultry,_fish.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -525,32 +525,32 @@
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "pork, beef, poultry, fish",
                 true,
-                "images/pork,_beef,_poultry,_fish.jpg"
+                "/static/images/pork,_beef,_poultry,_fish.jpg"
             ],
             [
                 "potatoes",
                 false,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "garlic",
                 false,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "mushrooms",
                 false,
-                "images/mushrooms.jpg"
+                "/static/images/mushrooms.jpg"
             ],
             [
                 "eggs",
                 false,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ]
         ]
     },
@@ -560,12 +560,12 @@
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "beef, pork",
                 true,
-                "images/beef,_pork.jpg"
+                "/static/images/beef,_pork.jpg"
             ]
         ]
     },
@@ -575,22 +575,22 @@
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "images/marinara_sauce.jpg"
+                "/static/images/marinara_sauce.jpg"
             ],
             [
                 "beef",
                 true,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ]
         ]
     },
@@ -600,22 +600,22 @@
             [
                 "sesame oil",
                 true,
-                "images/sesame_oil.jpg"
+                "/static/images/sesame_oil.jpg"
             ],
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "eggs",
                 true,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "pork",
                 false,
-                "images/pork.jpg"
+                "/static/images/pork.jpg"
             ]
         ]
     },
@@ -625,12 +625,12 @@
             [
                 "beans",
                 true,
-                "images/beans.jpg"
+                "/static/images/beans.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -640,12 +640,12 @@
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "images/marinara_sauce.jpg"
+                "/static/images/marinara_sauce.jpg"
             ]
         ]
     },
@@ -655,12 +655,12 @@
             [
                 "pork, beef, fish, poultry",
                 true,
-                "images/pork,_beef,_fish,_poultry.jpg"
+                "/static/images/pork,_beef,_fish,_poultry.jpg"
             ],
             [
                 "bread",
                 true,
-                "images/bread.jpg"
+                "/static/images/bread.jpg"
             ]
         ]
     },
@@ -670,17 +670,17 @@
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -690,12 +690,12 @@
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -705,22 +705,22 @@
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "rice",
                 false,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ]
         ]
     },
@@ -730,22 +730,22 @@
             [
                 "poultry",
                 true,
-                "images/poultry.jpg"
+                "/static/images/poultry.jpg"
             ],
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ],
             [
                 "peppers",
                 false,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ]
         ]
     },
@@ -755,17 +755,17 @@
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ]
         ]
     },
@@ -775,17 +775,17 @@
             [
                 "bread",
                 true,
-                "images/bread.jpg"
+                "/static/images/bread.jpg"
             ],
             [
                 "eggs",
                 true,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -795,17 +795,17 @@
             [
                 "poultry",
                 true,
-                "images/poultry.jpg"
+                "/static/images/poultry.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "images/marinara_sauce.jpg"
+                "/static/images/marinara_sauce.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ]
         ]
     },
@@ -815,17 +815,17 @@
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ]
         ]
     },
@@ -835,17 +835,17 @@
             [
                 "pork, fish",
                 true,
-                "images/pork,_fish.jpg"
+                "/static/images/pork,_fish.jpg"
             ],
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ]
         ]
     },
@@ -855,17 +855,17 @@
             [
                 "poultry, fish, beef, pork",
                 true,
-                "images/poultry,_fish,_beef,_pork.jpg"
+                "/static/images/poultry,_fish,_beef,_pork.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "garlic",
                 false,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ]
         ]
     },
@@ -875,17 +875,17 @@
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "eggs",
                 true,
-                "images/eggs.jpg"
+                "/static/images/eggs.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -895,17 +895,17 @@
             [
                 "poultry, fish, beef, pork",
                 true,
-                "images/poultry,_fish,_beef,_pork.jpg"
+                "/static/images/poultry,_fish,_beef,_pork.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ]
         ]
     },
@@ -915,12 +915,12 @@
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -930,22 +930,22 @@
             [
                 "poultry",
                 true,
-                "images/poultry.jpg"
+                "/static/images/poultry.jpg"
             ],
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -955,22 +955,22 @@
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "beef, pork, chicken",
                 true,
-                "images/beef,_pork,_chicken.jpg"
+                "/static/images/beef,_pork,_chicken.jpg"
             ],
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -980,17 +980,17 @@
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ]
         ]
     },
@@ -1000,12 +1000,12 @@
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -1015,17 +1015,17 @@
             [
                 "pork, beef",
                 true,
-                "images/pork,_beef.jpg"
+                "/static/images/pork,_beef.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "soy sauce",
                 true,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -1035,17 +1035,17 @@
             [
                 "green leaves",
                 true,
-                "images/green_leaves.jpg"
+                "/static/images/green_leaves.jpg"
             ],
             [
                 "cheese",
                 true,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ],
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ]
         ]
     },
@@ -1055,17 +1055,17 @@
             [
                 "beef, pork, poultry",
                 true,
-                "images/beef,_pork,_poultry.jpg"
+                "/static/images/beef,_pork,_poultry.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "cheese",
                 false,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ]
         ]
     },
@@ -1075,27 +1075,27 @@
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "beef",
                 true,
-                "images/beef.jpg"
+                "/static/images/beef.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "images/marinara_sauce.jpg"
+                "/static/images/marinara_sauce.jpg"
             ],
             [
                 "cheese",
                 false,
-                "images/cheese.jpg"
+                "/static/images/cheese.jpg"
             ]
         ]
     },
@@ -1105,22 +1105,22 @@
             [
                 "poultry",
                 true,
-                "images/poultry.jpg"
+                "/static/images/poultry.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -1130,27 +1130,27 @@
             [
                 "cooking oil",
                 true,
-                "images/cooking_oil.jpg"
+                "/static/images/cooking_oil.jpg"
             ],
             [
                 "dough",
                 true,
-                "images/dough.jpg"
+                "/static/images/dough.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "images/potatoes.jpg"
+                "/static/images/potatoes.jpg"
             ],
             [
                 "garlic",
                 false,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ],
             [
                 "peppers",
                 false,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ]
         ]
     },
@@ -1160,27 +1160,27 @@
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "noodles",
                 true,
-                "images/noodles.jpg"
+                "/static/images/noodles.jpg"
             ],
             [
                 "soy sauce",
                 true,
-                "images/soy_sauce.jpg"
+                "/static/images/soy_sauce.jpg"
             ],
             [
                 "garlic",
                 true,
-                "images/garlic.jpg"
+                "/static/images/garlic.jpg"
             ]
         ]
     },
@@ -1190,17 +1190,17 @@
             [
                 "fish",
                 true,
-                "images/fish.jpg"
+                "/static/images/fish.jpg"
             ],
             [
                 "rice",
                 true,
-                "images/rice.jpg"
+                "/static/images/rice.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ]
         ]
     },
@@ -1210,17 +1210,17 @@
             [
                 "bread",
                 true,
-                "images/bread.jpg"
+                "/static/images/bread.jpg"
             ],
             [
                 "peppers",
                 true,
-                "images/peppers.jpg"
+                "/static/images/peppers.jpg"
             ],
             [
                 "mushroom",
                 false,
-                "images/mushroom.jpg"
+                "/static/images/mushroom.jpg"
             ]
         ]
     }
