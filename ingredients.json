@@ -4,31 +4,31 @@
             "rice",
             false,
             false,
-            "/static/images/rice.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
         ],
         [
             "bread",
             false,
             false,
-            "/static/images/bread.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/bread.jpg"
         ],
         [
             "noodles",
             false,
             false,
-            "/static/images/noodles.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
         ],
         [
             "tortilla",
             false,
             false,
-            "/static/images/tortilla.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/tortilla.jpg"
         ],
         [
             "dough",
             false,
             false,
-            "/static/images/dough.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
         ]
     ],
     "Meats": [
@@ -36,31 +36,31 @@
             "fish",
             false,
             false,
-            "/static/images/fish.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
         ],
         [
             "pork",
             false,
             false,
-            "/static/images/pork.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/pork.jpg"
         ],
         [
             "beef",
             false,
             false,
-            "/static/images/beef.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
         ],
         [
             "poultry",
             false,
             false,
-            "/static/images/poultry.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/poultry.jpg"
         ],
         [
             "eggs",
             false,
             false,
-            "/static/images/eggs.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
         ]
     ],
     "Vegetables/Fruits": [
@@ -68,37 +68,37 @@
             "green leaves",
             false,
             false,
-            "/static/images/green_leaves.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
         ],
         [
             "potatoes",
             false,
             false,
-            "/static/images/potatoes.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
         ],
         [
             "garlic",
             false,
             false,
-            "/static/images/garlic.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
         ],
         [
             "mushrooms",
             false,
             false,
-            "/static/images/mushrooms.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/mushrooms.jpg"
         ],
         [
             "beans",
             false,
             false,
-            "/static/images/beans.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/beans.jpg"
         ],
         [
             "peppers",
             false,
             false,
-            "/static/images/peppers.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
         ]
     ],
     "Dairy": [
@@ -106,7 +106,7 @@
             "cheese",
             false,
             false,
-            "/static/images/cheese.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
         ]
     ],
     "Fats": [
@@ -114,13 +114,13 @@
             "cooking oil",
             false,
             false,
-            "/static/images/cooking_oil.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
         ],
         [
             "sesame oil",
             false,
             false,
-            "/static/images/sesame_oil.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/sesame_oil.jpg"
         ]
     ],
     "Sauces": [
@@ -128,13 +128,13 @@
             "soy sauce",
             false,
             false,
-            "/static/images/soy_sauce.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
         ],
         [
             "marinara sauce",
             false,
             false,
-            "/static/images/marinara_sauce.jpg"
+            "https://bendgk.github.io/MeltingPot/static/images/marinara_sauce.jpg"
         ]
     ]
 }

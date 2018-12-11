@@ -5,17 +5,17 @@
             [
                 "beans",
                 true,
-                "/static/images/beans.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beans.jpg"
             ],
             [
                 "tortilla",
                 false,
-                "/static/images/tortilla.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/tortilla.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ]
         ]
     },
@@ -25,37 +25,37 @@
             [
                 "bread",
                 true,
-                "/static/images/bread.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/bread.jpg"
             ],
             [
                 "beef",
                 true,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ],
             [
                 "cheese",
                 false,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "mushrooms",
                 false,
-                "/static/images/mushrooms.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/mushrooms.jpg"
             ],
             [
                 "eggs",
                 false,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "pork",
                 false,
-                "/static/images/pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork.jpg"
             ]
         ]
     },
@@ -65,32 +65,32 @@
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "beef",
                 false,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ],
             [
                 "mushrooms",
                 false,
-                "/static/images/mushrooms.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/mushrooms.jpg"
             ],
             [
                 "pork",
                 false,
-                "/static/images/pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork.jpg"
             ],
             [
                 "noodles",
                 false,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ]
         ]
     },
@@ -100,22 +100,22 @@
             [
                 "beef",
                 true,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ],
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "mushrooms",
                 true,
-                "/static/images/mushrooms.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/mushrooms.jpg"
             ],
             [
                 "garlic",
                 false,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ]
         ]
     },
@@ -125,22 +125,22 @@
             [
                 "pork, poultry",
                 true,
-                "/static/images/pork,_poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_poultry.jpg"
             ],
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "sesame oil",
                 false,
-                "/static/images/sesame_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/sesame_oil.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -150,17 +150,17 @@
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "beef",
                 true,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -170,22 +170,22 @@
             [
                 "beef",
                 true,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ],
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "potatoes",
                 false,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "garlic",
                 false,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ]
         ]
     },
@@ -195,27 +195,27 @@
             [
                 "eggs",
                 true,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "sesame oil",
                 true,
-                "/static/images/sesame_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/sesame_oil.jpg"
             ],
             [
                 "garlic",
                 false,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -225,22 +225,22 @@
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -250,12 +250,12 @@
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ]
         ]
     },
@@ -265,22 +265,22 @@
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ]
         ]
     },
@@ -290,17 +290,17 @@
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "beans",
                 true,
-                "/static/images/beans.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beans.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -310,12 +310,12 @@
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ]
         ]
     },
@@ -325,22 +325,22 @@
             [
                 "eggs",
                 true,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "cheese",
                 false,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ]
         ]
     },
@@ -350,27 +350,27 @@
             [
                 "tortilla",
                 true,
-                "/static/images/tortilla.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/tortilla.jpg"
             ],
             [
                 "pork, beef, poultry, fish",
                 true,
-                "/static/images/pork,_beef,_poultry,_fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_poultry,_fish.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "beans",
                 false,
-                "/static/images/beans.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beans.jpg"
             ],
             [
                 "rice",
                 false,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ]
         ]
     },
@@ -380,37 +380,37 @@
             [
                 "pork",
                 true,
-                "/static/images/pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork.jpg"
             ],
             [
                 "poultry",
                 true,
-                "/static/images/poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "tortilla",
                 false,
-                "/static/images/tortilla.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/tortilla.jpg"
             ],
             [
                 "beans",
                 false,
-                "/static/images/beans.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beans.jpg"
             ],
             [
                 "rice",
                 false,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ]
         ]
     },
@@ -420,17 +420,17 @@
             [
                 "pork, beef, poultry",
                 true,
-                "/static/images/pork,_beef,_poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_poultry.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "peppers",
                 false,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ]
         ]
     },
@@ -440,32 +440,32 @@
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "eggs",
                 true,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ],
             [
                 "sesame oil",
                 false,
-                "/static/images/sesame_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/sesame_oil.jpg"
             ],
             [
                 "green leaves",
                 false,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "pork, beef, fish",
                 false,
-                "/static/images/pork,_beef,_fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_fish.jpg"
             ]
         ]
     },
@@ -475,17 +475,17 @@
             [
                 "tortilla",
                 true,
-                "/static/images/tortilla.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/tortilla.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "pork, beef, poultry",
                 true,
-                "/static/images/pork,_beef,_poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_poultry.jpg"
             ]
         ]
     },
@@ -495,27 +495,27 @@
             [
                 "tortilla",
                 true,
-                "/static/images/tortilla.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/tortilla.jpg"
             ],
             [
                 "pork, beef, poultry, fish",
                 true,
-                "/static/images/pork,_beef,_poultry,_fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_poultry,_fish.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -525,32 +525,32 @@
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "pork, beef, poultry, fish",
                 true,
-                "/static/images/pork,_beef,_poultry,_fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_poultry,_fish.jpg"
             ],
             [
                 "potatoes",
                 false,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "garlic",
                 false,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "mushrooms",
                 false,
-                "/static/images/mushrooms.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/mushrooms.jpg"
             ],
             [
                 "eggs",
                 false,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ]
         ]
     },
@@ -560,12 +560,12 @@
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "beef, pork",
                 true,
-                "/static/images/beef,_pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef,_pork.jpg"
             ]
         ]
     },
@@ -575,22 +575,22 @@
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "/static/images/marinara_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/marinara_sauce.jpg"
             ],
             [
                 "beef",
                 true,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ]
         ]
     },
@@ -600,22 +600,22 @@
             [
                 "sesame oil",
                 true,
-                "/static/images/sesame_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/sesame_oil.jpg"
             ],
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "eggs",
                 true,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "pork",
                 false,
-                "/static/images/pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork.jpg"
             ]
         ]
     },
@@ -625,12 +625,12 @@
             [
                 "beans",
                 true,
-                "/static/images/beans.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beans.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -640,12 +640,12 @@
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "/static/images/marinara_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/marinara_sauce.jpg"
             ]
         ]
     },
@@ -655,12 +655,12 @@
             [
                 "pork, beef, fish, poultry",
                 true,
-                "/static/images/pork,_beef,_fish,_poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef,_fish,_poultry.jpg"
             ],
             [
                 "bread",
                 true,
-                "/static/images/bread.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/bread.jpg"
             ]
         ]
     },
@@ -670,17 +670,17 @@
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -690,12 +690,12 @@
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -705,22 +705,22 @@
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "green leaves",
                 true,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "rice",
                 false,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ]
         ]
     },
@@ -730,22 +730,22 @@
             [
                 "poultry",
                 true,
-                "/static/images/poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry.jpg"
             ],
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "soy sauce",
                 false,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ],
             [
                 "peppers",
                 false,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ]
         ]
     },
@@ -755,17 +755,17 @@
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ]
         ]
     },
@@ -775,17 +775,17 @@
             [
                 "bread",
                 true,
-                "/static/images/bread.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/bread.jpg"
             ],
             [
                 "eggs",
                 true,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -795,17 +795,17 @@
             [
                 "poultry",
                 true,
-                "/static/images/poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "/static/images/marinara_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/marinara_sauce.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ]
         ]
     },
@@ -815,17 +815,17 @@
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ]
         ]
     },
@@ -835,17 +835,17 @@
             [
                 "pork, fish",
                 true,
-                "/static/images/pork,_fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_fish.jpg"
             ],
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ]
         ]
     },
@@ -855,17 +855,17 @@
             [
                 "poultry, fish, beef, pork",
                 true,
-                "/static/images/poultry,_fish,_beef,_pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry,_fish,_beef,_pork.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "garlic",
                 false,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ]
         ]
     },
@@ -875,17 +875,17 @@
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "eggs",
                 true,
-                "/static/images/eggs.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/eggs.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -895,17 +895,17 @@
             [
                 "poultry, fish, beef, pork",
                 true,
-                "/static/images/poultry,_fish,_beef,_pork.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry,_fish,_beef,_pork.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ]
         ]
     },
@@ -915,12 +915,12 @@
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -930,22 +930,22 @@
             [
                 "poultry",
                 true,
-                "/static/images/poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry.jpg"
             ],
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -955,22 +955,22 @@
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "beef, pork, chicken",
                 true,
-                "/static/images/beef,_pork,_chicken.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef,_pork,_chicken.jpg"
             ],
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "cooking oil",
                 false,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -980,17 +980,17 @@
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ]
         ]
     },
@@ -1000,12 +1000,12 @@
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -1015,17 +1015,17 @@
             [
                 "pork, beef",
                 true,
-                "/static/images/pork,_beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/pork,_beef.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "soy sauce",
                 true,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ]
         ]
     },
@@ -1035,17 +1035,17 @@
             [
                 "green leaves",
                 true,
-                "/static/images/green_leaves.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/green_leaves.jpg"
             ],
             [
                 "cheese",
                 true,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ],
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ]
         ]
     },
@@ -1055,17 +1055,17 @@
             [
                 "beef, pork, poultry",
                 true,
-                "/static/images/beef,_pork,_poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef,_pork,_poultry.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "cheese",
                 false,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ]
         ]
     },
@@ -1075,27 +1075,27 @@
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "beef",
                 true,
-                "/static/images/beef.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/beef.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "marinara sauce",
                 true,
-                "/static/images/marinara_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/marinara_sauce.jpg"
             ],
             [
                 "cheese",
                 false,
-                "/static/images/cheese.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cheese.jpg"
             ]
         ]
     },
@@ -1105,22 +1105,22 @@
             [
                 "poultry",
                 true,
-                "/static/images/poultry.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/poultry.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ]
         ]
     },
@@ -1130,27 +1130,27 @@
             [
                 "cooking oil",
                 true,
-                "/static/images/cooking_oil.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/cooking_oil.jpg"
             ],
             [
                 "dough",
                 true,
-                "/static/images/dough.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/dough.jpg"
             ],
             [
                 "potatoes",
                 true,
-                "/static/images/potatoes.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/potatoes.jpg"
             ],
             [
                 "garlic",
                 false,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ],
             [
                 "peppers",
                 false,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ]
         ]
     },
@@ -1160,27 +1160,27 @@
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "noodles",
                 true,
-                "/static/images/noodles.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/noodles.jpg"
             ],
             [
                 "soy sauce",
                 true,
-                "/static/images/soy_sauce.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/soy_sauce.jpg"
             ],
             [
                 "garlic",
                 true,
-                "/static/images/garlic.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/garlic.jpg"
             ]
         ]
     },
@@ -1190,17 +1190,17 @@
             [
                 "fish",
                 true,
-                "/static/images/fish.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/fish.jpg"
             ],
             [
                 "rice",
                 true,
-                "/static/images/rice.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/rice.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ]
         ]
     },
@@ -1210,17 +1210,17 @@
             [
                 "bread",
                 true,
-                "/static/images/bread.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/bread.jpg"
             ],
             [
                 "peppers",
                 true,
-                "/static/images/peppers.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/peppers.jpg"
             ],
             [
                 "mushroom",
                 false,
-                "/static/images/mushrooms.jpg"
+                "https://bendgk.github.io/MeltingPot/static/images/mushroom.jpg"
             ]
         ]
     }
