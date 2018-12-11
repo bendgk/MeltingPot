@@ -1,93 +1,74 @@
-
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Melting Pot</title>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melting Pot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://unpkg.com/vue"></script>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link
-        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
-</head>
+		<meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-    <div id="cookbook" class="container">
-        <div class="row">
-            <div class="col-xs-6">
-                <div class="row">
-                    <div class="col-lg-6">Ingredients:</div>
-                    <div class="col-lg-6 text-right"><input placeholder="search" v-on:input="search()" v-model="searchtext" /></div>
-                </div>
-                <div v-for="(category, index) in ingredients">
-                    <div class="row full-padding">
-                        <div class="col-lg-6 text-left">{{index}}</div><div v-bind:id="index + 'BUTTON'" class="col-lg-6 hoverable text-right" v-on:click="toggleShow(index)">[-]</div>
-                    </div>
-                    <div class="row" v-bind:id="index">
-                        <img v-if="!ingredient[2] &&  !ingredient[1]" class="ing-img hoverable" v-for="(ingredient, ingdex) in category" v-bind:src="ingredient[3]" width="20%" v-on:click="toggleIngredient(ingredient)" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Recipe
-                    </div>
-                    <button v-on:click="clearRecipe()">Clear Recipe</button>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <img v-for="incIng in includedIngredients" v-on:click="toggleIngredient(incIng)" class="ing-img hoverable" v-bind:src="incIng[3]" width="20%" />
-                    </div>
-                </div>
-                <div v-for="(recipe, index) in recipes" v-if="recipe['display']">
-                    <div class="row">
-                        <div class="col-lg-12" v-bind:id="index">
-                            {{index}}: {{recipe["culture"]}}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <img class="ing-img" width="15%" v-for="ingredient in recipe['ingredients']" v-bind:src="ingredient[2]" v-bind:class="setBorder(index, ingredient[0])"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-<!--
-<body>
-    <div id="cookbook" class="container">
-        <div v-for="data in ingredients">{{data}}</div>
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <h2>Unused Ingredients</h2>
-                <img class="hoverable" v-for="ingredient in unincludedIngredients" v-bind:src="getImagePath(ingredient)" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
-            </div>
-            <div class="col-md-6 text-center">
-                <h2>Included Ingredients</h2>
-                <img v-for="ingredient in includedIngredients" v-bind:src="getImagePath(ingredient)" v-on:click="toggleIngredient(ingredient)" width="100px" height="100px"/>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Available Recipes</h2>
-                <div v-for="recipe of recipes" v-bind:Id="recipe[0]" v-if="recipe[1]">
-                    <h3>{{recipe[0]}}</h3>
-                    <img v-for="ingredient in recipe[2]" v-bind:src="getImagePath(ingredient)" width="75px" height="75px"/>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
--->
-<script src="scripts/index.js"></script>
+	    <script src="https://unpkg.com/vue"></script>
+	    <link rel="stylesheet" href="style.css" type="text/css">
+	    <link
+	        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	        crossorigin="anonymous">
+	    <script
+	        src="https://code.jquery.com/jquery-3.3.1.min.js"
+	        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	        crossorigin="anonymous">
+    	</script>
+	</head>
+
+	<body>
+		<div id="cookbook" class="container">
+	        <div class="row">
+	            <div class="col-xs-6">
+	                <div class="row" id="header">
+	                	<h1>Melting Pot</h1>
+	                    <div class="col-lg-6">Ingredients:</div>
+	                    <div class="col-lg-6 text-right">
+	                    	<input placeholder="search" v-on:input="search()" v-model="searchtext"/>
+	                    </div>
+	                </div>
+	                <div v-for="(category, index) in ingredients">
+	                    <div class="row full-padding">
+	                        <div class="col-lg-6 text-left">{{index}}</div>
+	                        <div v-bind:id="index + 'BUTTON'" class="col-lg-6 hoverable text-right" v-on:click="toggleShow(index)">[-]</div>
+	                    </div>
+	                    <div class="row full-padding" v-bind:id="index">
+	                    	<span v-if="!ingredient[2] && !ingredient[1]" v-for="(ingredient, ingdex) in category" v-bind:id="ingredient[0]">
+	                        	<img class="ing-img hoverable" v-bind:src="ingredient[3]" v-on:click="toggleIngredient(ingredient)" v-bind:name="ingredient[0]" width="20%"/>
+	                        	<!--<p>{{ingredient[0]}}</p>-->
+	                    	</span>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="col-xs-6">
+	            	<div class="row" id="header">
+	                    <div class="col-lg-12"><h1>Recipe</h1></div>
+	                    <button v-on:click="clearRecipe()">Clear Recipe</button>
+	                </div>
+
+	                <div class="row">
+	                    <div class="col-lg-12">
+	                        <img v-for="incIng in includedIngredients" v-on:click="toggleIngredient(incIng)" class="rec-img hoverable" v-bind:src="incIng[3]" width="20%"/>
+	                    </div>
+	                </div>
+
+	                <div v-for="(recipe, index) in recipes" v-if="recipe['display']">
+	                    <div class="row">
+	                        <div class="col-lg-12" v-bind:id="index">{{index}}: {{recipe["culture"]}}</div>
+	                    </div>
+
+	                    <div class="row">
+	                        <img class="rec-img" width="15%" v-for="ingredient in recipe['ingredients']" v-bind:src="getRecipePath(ingredient)" v-bind:class="setBorder(index, ingredient[0])"/>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</body>
+
+	<script src="scripts/index.js"></script>
 </html>
