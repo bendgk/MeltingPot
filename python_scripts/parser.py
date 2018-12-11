@@ -41,7 +41,7 @@ for i in range(NUM_COLS):
 			ingredients[data[i]] = []
 
 		else:
-			ingredient_path = "/static/images/" + data[i].replace(" ", "_").lower() + ".jpg"
+			ingredient_path = "https://bendgk.github.io/MeltingPot/static/images/" + data[i].replace(" ", "_").lower() + ".jpg"
 			ingredients[data[0]].append([data[i].lower(), False, False, ingredient_path])
 
 #parse recipes
@@ -74,7 +74,7 @@ for i in range(1, NUM_COLS):
 			}
 
 		else:
-			ingredient_path = "/static/images/" + sanitized_value.replace(" ", "_") + ".jpg"
+			ingredient_path = "https://bendgk.github.io/MeltingPot/static/images/" + sanitized_value.replace(" ", "_") + ".jpg"
 			recipes[recipe]['ingredients'].append([sanitized_value, required, ingredient_path])
 
 #dump contents
