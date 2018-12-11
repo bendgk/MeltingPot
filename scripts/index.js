@@ -214,7 +214,7 @@ $( document ).ready(function() {
         }
 
         else {
-          return "/static/images/meat.jpg"
+          return "https://bendgk.github.io/MeltingPot/static/images/meat.jpg"
         }
       },
     },
