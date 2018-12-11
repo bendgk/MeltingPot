@@ -52,7 +52,7 @@ for i in range(1, NUM_COLS):
 	culture = ""
 	recipe = ""
 
-	#print(data_array)
+	#print(data_array)	
 
 	for j in range(len(data_array)):
 		sanitized_value = data_array[j].strip().lower()
