@@ -128,10 +128,10 @@ var app = new Vue({
 
   },
   created() {
-    $.getJSON('python_scripts/ingredients.json').then((data) => {
+    $.getJSON('ingredients.json').then((data) => {
       this.ingredients = data;
     });
-    $.getJSON('python_scripts/recipes.json').then((data) => {
+    $.getJSON('recipes.json').then((data) => {
       this.recipes = data;
     });
   }
